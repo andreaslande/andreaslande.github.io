@@ -26,7 +26,9 @@ function UiOproject() {
 
             {/* Whisker tracking */}
             <div className = "mt-5 sm:mt-8 border pb-5 border-zinc-700 rounded-xl">
-                <video className = "rounded-t-xl" src = {whiskerVideo} alt = "Video av mus som løper på løpehjul" autoPlay playsinline loop muted></video>
+                <video className = "rounded-t-xl" alt = "Video av mus som løper på løpehjul" autoPlay playsInline loop muted>
+                    <source src = {whiskerVideo}/>
+                </video>
                 <p className = "text-white font-semibold text-md pt-2 px-3">Sakte film av en mus som løper i en taktil VR</p>
                 <p className = "text-white text-sm px-3">Værhårene filmes med 300 bilder i sekundet av et infrarødt kamera</p>
             </div>
@@ -49,7 +51,7 @@ function UiOproject() {
 
             {/* VR oppsett */}
             <div className = "mt-5 sm:mt-8 border pb-5 border-zinc-700 rounded-xl">
-                <video className = "rounded-t-xl" src = {runningVideo} alt = "Video av mus som løper på løpehjul i virtuell virkelighet" autoPlay playsinline loop muted></video>
+                <video className = "rounded-t-xl" src = {runningVideo} alt = "Video av mus som løper på løpehjul i virtuell virkelighet" autoPlay playsInline loop muted></video>
                 <p className = "text-white font-semibold text-md pt-2 px-3">Hodefiksert mus løper på løpehjul</p>
                 <p className = "text-white text-sm px-3">Hvis du ser nøye på toppen av hodet er det et rød-rosa område. Dette er hjernen til musa som kan sees gjennom et glassvindu. VR oppsettet styres fra virtuelle instrumenter i LabView, og all data hentes inn gjennom National Instruments data acquisition plattformer. </p>
             </div>
@@ -61,7 +63,7 @@ function UiOproject() {
 
             {/* Imaging of retrosplenial cortex */}
             <div className = "mt-3 border pb-5 border-zinc-700 rounded-xl mb-5">
-            <video className = "rounded-t-xl" src = {ROIVideo} alt = "Video av mikroskopi i hjernen og signalene som hentes ut" autoPlay playsinline loop muted></video>
+            <video className = "rounded-t-xl" src = {ROIVideo} alt = "Video av mikroskopi i hjernen og signalene som hentes ut" autoPlay playsInline loop muted></video>
                 <p className = "text-white font-semibold text-md pt-2 px-3">Signalene vi henter ut fra nerveceller ved hjelp av to-foton mikroskopi</p>
                 <p className = "text-white text-sm px-3">Til venstre er en video fra et 0.5 mm x 0.5 mm stort område av hjernebarken til en mus. Fargede sirkler er 
                     tegnet rundt noen tilfeldige nerveceller. Til høyre ser du gjennomsnittsverdien av pixlene i en sirkel.</p>
