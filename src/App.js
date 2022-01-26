@@ -8,7 +8,6 @@ import UiTproject from './Components/UiTproject';
 import NTNUproject from './Components/NTNUproject';
 import stars from './media/stars.svg'
 import { motion } from 'framer-motion';
-import CV from './Components/CV';
 
 function App() {
   return (  
