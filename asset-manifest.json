@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f4d7501.css",
+    "main.js": "/static/js/main.283f5b2d.js",
+    "static/media/roi_signals2.mov": "/static/media/roi_signals2.9b23f6a10cab4ab9817f.mov",
+    "static/media/whisker_tracking.mov": "/static/media/whisker_tracking.364f48ec881f43414d59.mov",
+    "static/media/mouse_running.MOV": "/static/media/mouse_running.70357a591b1691c4aa88.MOV",
+    "static/media/internevron.png": "/static/media/internevron.c33faf1f19b691174b1c.png",
+    "static/media/nattsvermer.png": "/static/media/nattsvermer.7f1e64b4c0e79c8abc97.png",
+    "static/media/place_cell.png": "/static/media/place_cell.a2f01d8513642cd86772.png",
+    "static/media/solsikke_respons.png": "/static/media/solsikke_respons.2701a0f3d16bf859500b.png",
+    "static/media/landmark_cells.jpg": "/static/media/landmark_cells.84032d8dcce23d9c6027.jpg",
+    "static/media/neuron.svg": "/static/media/neuron.113465d78304fedb1e99cc13c50b0b77.svg",
+    "static/media/stars.svg": "/static/media/stars.2ba086975894265beb28a12513e87260.svg",
+    "index.html": "/index.html",
+    "main.9f4d7501.css.map": "/static/css/main.9f4d7501.css.map",
+    "main.283f5b2d.js.map": "/static/js/main.283f5b2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f4d7501.css",
+    "static/js/main.283f5b2d.js"
+  ]
+}
