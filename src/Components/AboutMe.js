@@ -57,7 +57,7 @@ function AboutMe() {
               
               <motion.div className = "items-center mt-5 " initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay, duration:0.2, type:"spring", stiffness:springStiffness}}>
                   Jeg har fått
-                  <solid className="cursor-pointer font-medium text-indigo-300 ml-1.5 hover:text-axon">mus til å løpe i en virtuell virkelighet</solid>.
+                  <solid className="cursor-pointer font-medium text-indigo-300 ml-1.5">mus til å løpe i en virtuell virkelighet</solid>.
               </motion.div>
 
               <motion.div className = "items-center" initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay+textDelayIntervals, duration:0.2, type:"spring", stiffness:springStiffness}}>
