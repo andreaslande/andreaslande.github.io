@@ -55,18 +55,16 @@ function AboutMe() {
                   De siste 8 årene har jeg forsøkt å finne ut hvordan hjernen fungerer. Det har jeg gjort ved å bruke 'state-of-the-art' teknikker for å lytte til hundrevis av nerveceller i biologiske nevrale nettverk.
               </motion.p>
               
-              <motion.div className = "items-center mt-5 " initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay, duration:0.2, type:"spring", stiffness:springStiffness}}>
-                  Jeg har fått
-                  <solid className="font-medium text-indigo-300 ml-1.5">mus til å løpe i en virtuell virkelighet</solid>.
+              <motion.div className = "text-indigo-300 items-center mt-5 " initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay, duration:0.2, type:"spring", stiffness:springStiffness}}>
+                  Jeg har fått mus til å løpe i en virtuell virkelighet.
               </motion.div>
 
-              <motion.div className = "items-center" initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay+textDelayIntervals, duration:0.2, type:"spring", stiffness:springStiffness}}>
-                  Jeg har trent 
-                  <solid className=" font-medium text-indigo-300 ml-1.5">rotter til å navigere labyrinter</solid>.
+              <motion.div className = "text-indigo-300 items-center" initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay+textDelayIntervals, duration:0.2, type:"spring", stiffness:springStiffness}}>
+                  Jeg har trent rotter til å navigere labyrinter.
               </motion.div>
 
-              <motion.div className = "items-center sm:text-justify" initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay+(textDelayIntervals*2), duration:0.2, type:"spring", stiffness:springStiffness}}>
-                Jeg har studert<solid className=" font-medium text-indigo-300 ml-1.5">nervebaner i luktesystemet til nattsvermere</solid>.
+              <motion.div className = "text-indigo-300 items-center sm:text-justify" initial = {{y:2, opacity:0}} animate = {{y:0, opacity:1}}  transition = {{delay:textDelay+(textDelayIntervals*2), duration:0.2, type:"spring", stiffness:springStiffness}}>
+                Jeg har studert nervebaner i luktesystemet til nattsvermere.
               </motion.div>
 
 

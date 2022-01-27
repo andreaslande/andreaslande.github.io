@@ -37,7 +37,7 @@ function NTNUproject() {
 
             <img className = "rounded-xl my-5" src = {solsikkeResponse}></img>
 
-
+            <p className = "text-zinc-200 text-sm text-justify">Her er et eksempel på en nervecelle som responderer kraftig rett etter at jeg har blåst duften av solsikke ofter antennene.</p>
 
             <div className = "border border-zinc-700 rounded-xl my-5">
                 <img className = "rounded-xl" src = {interNevron}></img>
@@ -46,6 +46,11 @@ function NTNUproject() {
                 vanskelig å forstå at foregreningen ut av en nervecelle, dendritter, har fått sitt navn fra det greske ordet for tre - déndron. 
                 </p>
             </div>
+
+
+
+
+            
         </div>
     )
 }
