@@ -1,2 +1,2 @@
-# homepage
+# Repo for GitHub pages
  
